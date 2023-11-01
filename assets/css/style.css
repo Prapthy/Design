@@ -1,0 +1,172 @@
+header{
+	background: url(../img/1page.jpg);
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+nav .bg-light{
+	background-color: #f8f9fa;!important
+}
+header .container{
+	width: 30%;
+	margin-left: 1038px;
+	margin-top: 270px;
+}
+header .container h1{
+	font-family: lobster;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+.about .about-h{
+	font-weight: bold;
+}
+.about .text{
+
+}
+.about .sign{
+	font-family: lobster;
+}
+.skils{
+	background: #F9F9F9;
+}
+.skils h3{
+	font-family: josefin;
+	font-weight: bold;
+  	margin-bottom: 15px;
+}
+.skils .skil-text{
+	align-self: center;
+}
+.skils .progress{
+	height: 2px;
+	margin-bottom: 20px;
+}
+.skils .skil-img img{
+	object-fit: cover;  
+	width: 100%;
+	margin-left: 119px;
+}
+.icon-start{
+	background: #10C8C2;
+}
+.icon-start .icon-1{
+	font-size: 40px;
+  	color: white;
+}
+.icon-start .icon-text{
+	margin-left: 57px;
+	margin-top: -57px;
+	color: white;
+}
+.icon-start .icon-item-1{
+	margin-left: 149px;
+}
+.image .image-1{
+	width: 100%;
+}
+.image .image-1 img{
+	width: 100%;
+  	object-fit: cover;
+}
+.image .image-2{
+	width: 100%;
+}
+.image .image-2 img{
+	width: 100%;
+	object-fit: cover;
+}
+.image .img .wrapper{
+	width: 100%;
+}
+.image .img .image-3{
+	width: 100%;
+	position: relative;
+}
+.image .img .wrapper img{
+	width: 100%;
+	display: block;
+}
+.image .img .image-3 .content{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	background: black;
+}
+.image .button{
+	text-align: center;
+	background: #F5F5F5;
+	padding: 15px;
+}
+.cardd{
+	background: #F5F5F5;
+	margin-top: 48px;
+}
+.cardd .cardd-item{
+	margin-top: 45px;
+}
+.cardd .cardd-1{
+	text-align: center;
+  	font-size: 25px;
+  	color: #A6A6A6;
+}
+.cardd .cardd-text{
+	text-align: center;
+	width: 75%;
+  	margin: auto;
+}
+.cardd .cardd-text h6{
+	font-weight: bold;
+}
+.cardd .cardd-text p{
+	color: #A6A6A6;
+}
+.p-tag{
+	background: #10C9C3;
+}
+.p-tag p{
+	width: 50%;
+  	margin: 80px auto;
+  	font-size: 20px;
+  	color: white;
+}
+.project{
+	background: #F5F5F5;
+}
+.project .project-item{
+  	text-align: center;
+  	width: 50%;
+  	margin: 70px auto;
+}
+.project .project-item p{
+	color: #A6A6A6;
+	
+}
+.project .project-1 input{
+	background: white;
+	border: none;
+}
+.project .project-1 textarea{
+	border: none;
+	height: 150px;
+	color: #6C75A1;
+}
+.foater{
+	background: black;
+  	color: white;
+}
+
+@media only screen and (max-width: 991px) {
+	header .container{
+    	margin-left: 197px;
+    	width: 45%;
+    	margin-top: 0px;
+	}
+	.icon-start .icon-item-1{
+	margin-left: 0px;
+}
+}
